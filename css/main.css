@@ -1,0 +1,85 @@
+html {
+  box-sizing: border-box;
+  font: normal 100%/1.5 "Sigmar One", Georgia;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  background-color: #ffe500;
+  padding: .2em .5em .3em;
+}
+
+h1 {
+  text-align: center;
+  color: #b20953;
+  font-size: 3rem;
+  padding: 0;
+}
+
+h2 {
+  color: #b20953;
+  font-size: 1.875rem;
+  padding: 0 .75rem;
+}
+
+.nav {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+  font-family: georgia;
+}
+
+.nav li {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.125rem;
+  padding: .75rem 0;
+}
+
+.nav a {
+  color: white;
+  display: inline-block;
+  padding: 0 .75em;
+  background-color: #b2a212;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  background-color: #cc1465;
+}
+
+footer {
+  background-color: #ffe500;
+  font-size: .75rem;
+  font-family: georgia;
+  display: flex;
+  padding: 0 .75rem;
+}
+
+p {
+  font-family: georgia;
+  padding: .75em;
+}
+
+img {
+  width: 100%;
+  padding: 0 .75rem;
+  display: block;
+}
+
+strong {
+  color: #2f2d13;
+}
+
+.current {
+  background-color: #b20953;
+}
