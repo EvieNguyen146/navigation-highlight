@@ -13,7 +13,7 @@ body {
 
 header {
   background-color: #ffe500;
-  padding: .2em .5em .3em;
+  padding: 0 0 .3em;
 }
 
 h1 {
@@ -21,13 +21,14 @@ h1 {
   color: #b20953;
   font-size: 3rem;
   padding: 0;
+  margin: 0;
 }
 
 h2 {
   color: #b20953;
   font-size: 1.875rem;
   padding: 0 .75rem;
-  padding-right: 5rem;
+  padding-right: .75rem;
 }
 
 .nav {
@@ -36,22 +37,24 @@ h2 {
   list-style-type: none;
   text-align: center;
   font-family: georgia;
+  width: 100%;
 }
 
 .nav li {
   display: inline-block;
   text-decoration: none;
   font-size: 1.125rem;
-  padding: .75rem 0;
+  padding: 0;
 }
 
 .nav a {
   color: white;
   display: inline-block;
-  padding: 0 .75em;
+  padding: .3em .55em;
   background-color: #b2a212;
   border-radius: 4px;
   text-decoration: none;
+  text-align: center;
 }
 
 .nav a:hover {
@@ -60,15 +63,21 @@ h2 {
 
 footer {
   background-color: #ffe500;
-  font-size: .75rem;
   font-family: georgia;
   display: flex;
-  padding: 0 .75rem;
+  padding: 0 .75em;
+  margin: 0;
+}
+
+small {
+  text-align: center;
+  padding: .75em;
 }
 
 p {
   font-family: georgia;
   padding: .75em;
+  padding: 0 .75em;
 }
 
 img {
